@@ -1,0 +1,192 @@
+{
+  "weeks": [
+    {
+      "id": 1,
+      "topic": "Data Visualization and Storytelling",
+      "count": 6,
+      "summary": "Practice Week 1 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "Data visualization and storytelling",
+        "Design principles",
+        "Misleading visuals",
+        "Dashboard creation (Excel)"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "Probability Distributions and Goodness of Fit",
+      "count": 30,
+      "summary": "Practice Week 2 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "Probability distributions",
+        "Fitting and goodness-of-fit tests",
+        "Distribution identification (visual + statistical, Python)"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "Categorical Association and Bayes’ Rule",
+      "count": 62,
+      "summary": "Practice Week 3 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "Categorical association",
+        "Bayes' rule",
+        "Chi-squared test (Python, spreadsheets)"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    },
+    {
+      "id": 4,
+      "topic": "Demand, Elasticity and Linear Regression",
+      "count": 46,
+      "summary": "Practice Week 4 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "Demand and pricing - elasticity, response curves",
+        "Linear regression modeling",
+        "Python implementation"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    },
+    {
+      "id": 5,
+      "topic": "Pricing Optimization and Linear Programming",
+      "count": 51,
+      "summary": "Practice Week 5 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "Demand modeling - constant elasticity, regression",
+        "Pricing optimization (revenue, profit)",
+        "Linear programming",
+        "Implementation"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    },
+    {
+      "id": 6,
+      "topic": "Multiple Linear Regression",
+      "count": 32,
+      "summary": "Practice Week 6 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "Multiple linear regression - interactions, multicollinearity (VIF)",
+        "Excel and Python implementation"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "Logistic Regression and Evaluation",
+      "count": 65,
+      "summary": "Practice Week 7 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "Logistic regression - modeling, evaluation, interpretation",
+        "Excel and Python implementation",
+        "Application"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "Graphical Efficiency Analysis and DEA",
+      "count": 13,
+      "summary": "Practice Week 8 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "Efficiency analysis - graphical methods",
+        "Data Envelopment Analysis (DEA)"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "DEA: Multiple Inputs and Outputs",
+      "count": 23,
+      "summary": "Practice Week 9 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "DEA - multi-input/output analysis",
+        "Efficiency improvement strategies"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    },
+    {
+      "id": 10,
+      "topic": "DEA and Conjoint Analysis",
+      "count": 7,
+      "summary": "Practice Week 10 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "DEA - efficiency analysis",
+        "Conjoint analysis - optimization, ideal point model"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    },
+    {
+      "id": 11,
+      "topic": "Conjoint Analysis: LP and Regression",
+      "count": 15,
+      "summary": "Practice Week 11 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "Conjoint analysis - linear programming, regression",
+        "Excel-based optimization"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    },
+    {
+      "id": 12,
+      "topic": "Uniform and Poisson Goodness of Fit",
+      "count": 27,
+      "summary": "Practice Week 12 Business Analytics questions using the supplied exam questions, tables and figures.",
+      "topics": [
+        "Business analytics outlook",
+        "Chi-square goodness-of-fit (uniform, Poisson)"
+      ],
+      "guide": [
+        "Identify the assumptions and quantities given in the question before selecting a method.",
+        "Use the accompanying tables and graphs; retain precision until the requested final rounding.",
+        "Compare your attempt with the supplied answer key and revisit the relevant syllabus topic."
+      ]
+    }
+  ]
+}

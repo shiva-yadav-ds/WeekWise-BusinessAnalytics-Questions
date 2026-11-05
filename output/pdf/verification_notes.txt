@@ -1,0 +1,47 @@
+# Business Analytics PDFs — verification notes
+
+The 12 PDFs use the MLT demo's embedded Latin Modern Roman 10 family and Latin Modern Sans 10 Bold headings, A4 pages, one-inch margins and the requested bottom-right footer `Shiva(25f1000035)`.
+
+Headings use the date in each supplied filename, plus Quiz-1, Quiz-2 or ET read from the HTML's Exam field. FN/AN session labels are not used to infer the exam type.
+
+Body and answer text match the MLT reference at 10.909 PDF points (LaTeX 11pt); exam headings use 14.346 PDF points. Week titles now read “Week N BA” inside a double-line border. The introductory source-answer disclaimer has been removed from all PDFs. Original raster-image text retains its source appearance.
+
+## Coverage
+
+| Week | Answerable questions | Pages | Embedded image occurrences |
+|---|---:|---:|---:|
+| 1 | 6 | 8 | 14 |
+| 2 | 30 | 16 | 8 |
+| 3 | 62 | 27 | 13 |
+| 4 | 46 | 18 | 14 |
+| 5 | 51 | 17 | 10 |
+| 6 | 32 | 14 | 19 |
+| 7 | 65 | 21 | 19 |
+| 8 | 13 | 8 | 6 |
+| 9 | 23 | 8 | 38 |
+| 10 | 7 | 4 | 2 |
+| 11 | 15 | 8 | 2 |
+| 12 | 27 | 14 | 11 |
+
+All 377 substantive source questions have one primary week placement. The 84 comprehension statements are included wherever their selected subquestions need them; 13 hall-ticket/subject confirmations are excluded. Week 6 has all 32 mapped questions and 19 embedded image occurrences.
+
+## Checks and fixes
+
+- Question numbers and parents matched to the source HTML and the Markdown mapping.
+- Every question/option image in each extracted source block accounted for; actual PDF image draw counts match the rendering manifest. Image assets are preserved, not redrawn or cropped.
+- Option counts matched to the source; all 377 answer labels present.
+- Required cross-question Figure-1 from S17 Q9 added to Week 12 S17 Q13. It is reference material, not a duplicated Week 3 question.
+- Repeated HTML statement text removed; the recoverable RO-filter bin inequalities restored.
+- Numeric keys stored as JSON alternatives displayed as “x or y”.
+- No TeX overfull boxes or missing glyphs; PDF text stays within the checked page bounds; every page has the exact footer.
+- Answer-only orphan pages removed. All pages rendered for layout review.
+
+## Limits of the source material
+
+The supplied syllabus has overlapping topics. Primary placements follow the reviewed mapping: normal/general fitting in Week 2, uniform/Poisson goodness-of-fit in Week 12; graphical DEA in Week 8, multi-input/output LP and HCU in Week 9; ideal-point/introductory conjoint in Week 10, conjoint LP/regression in Week 11. These are topic-based placements, not official question-level week tags. The detailed Markdown records overlaps. Shared comprehension data can appear in multiple weeks without repeating the answerable question.
+
+S12 Q3 does not specify its nonlinear demand family. It remains under Week 5 demand modeling with an explicit limitation note. S15 Q20 labels both source axes TPR; the original image is preserved with an explanatory note in Week 7.
+
+S06 Q4 options (b)/(c) were truncated after d1. The missing inequality was recovered from the [original 2024 Sep01 paper copy](https://www.scribd.com/document/779104151/IIT-M-FOUNDATION-DIPLOMA-FN-EXAM-QDF1), question ID 640653902664, options 6406533040133/6406533040134. S07 Q7 contains the identical truncated question; its restoration from that earlier question is an inference explicitly marked in Week 10.
+
+Source answer keys are reproduced and labelled as such. They have not all been independently solved; source factual, numerical or wording errors must not be mistaken for independently verified solutions.
