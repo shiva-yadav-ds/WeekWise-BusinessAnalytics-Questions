@@ -45,7 +45,7 @@ def head(title, description, path, graph, kind='website'):
   <meta name="twitter:description" content="{esc(description, quote=True)}">
   <meta name="twitter:image" content="{esc(image, quote=True)}">
   <meta name="twitter:image:alt" content="IITM BA Week Wise Questions — Business Analytics, Weeks 1–12">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=subjects-1">
   {schema_script(graph)}'''
 
 

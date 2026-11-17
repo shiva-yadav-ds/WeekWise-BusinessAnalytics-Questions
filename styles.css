@@ -182,7 +182,7 @@ body.pdf-active .top-header {
 
 .gallery-header {
   text-align: center;
-  margin-bottom: 38px;
+  margin-bottom: 16px;
 }
 
 .gallery-eyebrow {
@@ -216,7 +216,7 @@ body.pdf-active .top-header {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(6, auto);
   grid-auto-flow: column;
-  gap: 16px 28px;
+  gap: 10px 28px;
   max-width: 1060px;
   margin: 0 auto;
 }
@@ -225,14 +225,104 @@ body.pdf-active .top-header {
   background-color: #ffffff;
   border: 1px solid var(--border-color);
   border-radius: 10px;
-  padding: 18px 24px;
+  padding: 14px 24px;
   cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   transition: all 0.18s ease;
-  min-height: 64px;
+  min-height: 58px;
+}
+
+/* Compact cross-subject carousel inside the hero. */
+.subject-strip {
+  width: min(1060px, 100%);
+  margin: 0 auto 16px;
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) 34px;
+  align-items: center;
+  gap: 8px;
+}
+
+.subject-links {
+  display: flex;
+  gap: 9px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  overscroll-behavior-inline: contain;
+  padding: 2px;
+}
+
+.subject-links::-webkit-scrollbar {
+  display: none;
+}
+
+.subject-link {
+  flex: 0 0 auto;
+  min-width: max-content;
+  height: 42px;
+  padding: 0 12px 0 7px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 9px;
+  color: var(--text-secondary);
+  background: var(--bg-subtle);
+  font-size: 12.5px;
+  font-weight: 600;
+  text-decoration: none;
+  scroll-snap-align: start;
+  transition: border-color .16s ease, color .16s ease, background-color .16s ease;
+}
+
+.subject-link:hover {
+  border-color: var(--accent-blue);
+  color: var(--accent-blue-hover);
+  background: var(--accent-blue-light);
+}
+
+.subject-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  color: var(--accent-blue);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+
+.subject-external {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.subject-scroll-btn {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: border-color .16s ease, color .16s ease, background-color .16s ease;
+}
+
+.subject-scroll-btn:hover {
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+  background: var(--accent-blue-light);
 }
 
 .week-card:hover {
@@ -771,6 +861,10 @@ body.pdf-active .top-header {
     max-width: 100%;
   }
 
+  .subject-strip {
+    margin-bottom: 12px;
+  }
+
   .week-card {
     padding: 12px 16px;
   }
@@ -813,6 +907,25 @@ body.pdf-active .top-header {
 
   .gallery-title {
     font-size: 20px;
+  }
+
+  .gallery-header {
+    margin-bottom: 12px;
+  }
+
+  .subject-strip {
+    grid-template-columns: 30px minmax(0, 1fr) 30px;
+    gap: 5px;
+  }
+
+  .subject-scroll-btn {
+    width: 30px;
+    height: 34px;
+  }
+
+  .subject-link {
+    height: 38px;
+    font-size: 11.5px;
   }
 
   .gallery-subtitle {

@@ -42,6 +42,9 @@ const btnToggleDrawer = document.getElementById("btnToggleDrawer");
 const btnDownloadPdf = document.getElementById("btnDownloadPdf");
 const btnNewTabPdf = document.getElementById("btnNewTabPdf");
 const btnFullscreenPdf = document.getElementById("btnFullscreenPdf");
+const subjectLinks = document.getElementById("subjectLinks");
+const subjectScrollPrev = document.getElementById("subjectScrollPrev");
+const subjectScrollNext = document.getElementById("subjectScrollNext");
 
 /**
  * Initialize Portal
@@ -213,6 +216,15 @@ function returnToCenter() {
  * Attach UI Event Listeners
  */
 function attachEventListeners() {
+  const scrollSubjects = direction => {
+    if (!subjectLinks) return;
+    const distance = Math.max(240, Math.round(subjectLinks.clientWidth * 0.72));
+    subjectLinks.scrollBy({ left: direction * distance, behavior: "smooth" });
+  };
+
+  subjectScrollPrev?.addEventListener("click", () => scrollSubjects(-1));
+  subjectScrollNext?.addEventListener("click", () => scrollSubjects(1));
+
   // Collapse button inside drawer
   if (btnCollapseDrawer) {
     btnCollapseDrawer.addEventListener("click", () => toggleDrawer(true));
